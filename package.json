@@ -1,0 +1,37 @@
+{
+  "name": "crud-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "start:dev": "nodemon src/server.ts",
+    "start:prod": "tsc && node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TusksAndTasks/CRUD-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TusksAndTasks/CRUD-API/issues"
+  },
+  "homepage": "https://github.com/TusksAndTasks/CRUD-API#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "node": "^17.7.2",
+    "nodemon": "^2.0.16"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.18.0",
+    "ts-loader": "^9.3.0",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
