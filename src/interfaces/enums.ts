@@ -1,0 +1,15 @@
+export enum ResCodes{
+    CORRECT_CODE = 200,
+    NOT_FOUND_CODE = 404,
+    INCORRECT_CODE = 500,
+    USER_ERROR_CODE = 400,
+    CORRECT_CREATE_CODE = 201,
+    CORRECT_DELETE_CODE = 204
+}
+
+export enum Methods{
+    GET_METHOD = 'GET',
+    POST_METHOD = 'POST',
+    PUT_METHOD = 'PUT',
+    DELETE_METHOD = 'DELETE',
+}

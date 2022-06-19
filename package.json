@@ -21,9 +21,11 @@
   "dependencies": {
     "dotenv": "^16.0.1",
     "node": "^17.7.2",
-    "nodemon": "^2.0.16"
+    "nodemon": "^2.0.16",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
+    "@types/uuid": "^8.3.4",
     "@typescript-eslint/eslint-plugin": "^5.28.0",
     "@typescript-eslint/parser": "^5.28.0",
     "cross-env": "^7.0.3",
