@@ -4,7 +4,7 @@ import { ResCodes } from './interfaces/enums';
 
 export const ApiController = new ApiControllers();
 
-const server = createServer((req, res) => {
+export const server = createServer((req, res) => {
 
         if(req.url === '/api/users'){
             ApiController.workWithUsers(req, res);
