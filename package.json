@@ -6,7 +6,8 @@
   "scripts": {
     "start:dev": "nodemon src/server.ts",
     "start:prod": "tsc && node dist/server.js",
-    "start:test": "mocha -r ts-node/register 'src/tests/**/*.ts'"
+    "start:test": "mocha -r ts-node/register 'src/tests/**/*.ts'",
+    "start:multi": "ts-node src/cluster/cluster.ts"
   },
   "repository": {
     "type": "git",
