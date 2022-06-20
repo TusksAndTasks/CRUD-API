@@ -1,0 +1,46 @@
+{
+  "name": "crud-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "start:dev": "nodemon src/server.ts",
+    "start:prod": "tsc && node dist/server.js",
+    "start:test": "mocha -r ts-node/register 'src/tests/**/*.ts'",
+    "start:multi": "ts-node src/cluster/cluster.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TusksAndTasks/CRUD-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TusksAndTasks/CRUD-API/issues"
+  },
+  "homepage": "https://github.com/TusksAndTasks/CRUD-API#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "dotenv": "^16.0.1",
+    "mocha": "^10.0.0",
+    "node": "^17.7.2",
+    "nodemon": "^2.0.16",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.1",
+    "@types/mocha": "^9.1.1",
+    "@types/uuid": "^8.3.4",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.18.0",
+    "ts-loader": "^9.3.0",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
